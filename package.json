@@ -1,0 +1,22 @@
+{
+  "name": "@bfatoms/ticketbux-types",
+  "version": "1.0.32",
+  "description": "Shared TypeScript types",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bfatoms/ticketbux-types.git"
+  },
+  "keywords": [
+    "typescript",
+    "types"
+  ],
+  "author": "Louie Foronda",
+  "license": "MIT",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
