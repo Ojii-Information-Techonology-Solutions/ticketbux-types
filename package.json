@@ -1,11 +1,12 @@
 {
-  "name": "@bfatoms/ticketbux-types",
-  "version": "1.0.32",
+  "name": "@ojii/ticketbux-types",
+  "version": "1.0.0",
   "description": "Shared TypeScript types",
-  "types": "index.d.ts",
+  "types": "index.ts",
+  "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bfatoms/ticketbux-types.git"
+    "url": "https://github.com/Ojii-Information-Techonology-Solutions/ticketbux-types.git"
   },
   "keywords": [
     "typescript",
