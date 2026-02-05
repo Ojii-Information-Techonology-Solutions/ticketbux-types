@@ -1,4 +1,5 @@
 export * from "./entities";
+export * from "./user_actions";
 export * from "./users";
 export * from "./email_verifications";
 export * from "./sessions";

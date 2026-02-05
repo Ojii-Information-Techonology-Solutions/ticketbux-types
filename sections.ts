@@ -4,9 +4,9 @@ import type { Package } from "./packages";
 import type { Ticket } from "./tickets";
 
 export const SectionType = {
-  FREE: { value: 0, label: "free", color: "gray" },
-  OPEN: { value: 1, label: "open", color: "blue" },
-  RESERVED: { value: 2, label: "reserved", color: "green" },
+  FREE: { value: 0, label: "free standing", color: "gray" },
+  OPEN: { value: 1, label: "open seating", color: "blue" },
+  RESERVED: { value: 2, label: "reserved seating", color: "green" },
 } as const;
 
 export const sectionTypes = Object.values(SectionType);
