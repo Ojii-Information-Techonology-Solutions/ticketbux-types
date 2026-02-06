@@ -71,6 +71,7 @@ export interface EventDateFields {
   paymentEnvironmentMode: PaymentEnvironmentValue;
   status: EventDateStatusValue;
   publishedAt: Date | null;
+  bouncerUrl: string | null;
 }
 
 export interface EventDateUpsert extends Partial<EventDateID>, Partial<EventDateFields> { }
