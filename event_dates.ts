@@ -72,6 +72,7 @@ export interface EventDateFields {
   status: EventDateStatusValue;
   publishedAt: Date | null;
   bouncerUrl: string | null;
+  internalBouncerUrl: string | null;
 }
 
 export interface EventDateUpsert extends Partial<EventDateID>, Partial<EventDateFields> { }

@@ -27,3 +27,4 @@ export * from "./sale_dates";
 export * from "./webhook_logs";
 export * from "./servers";
 export * from "./currency";
+export * from "./platform_settings";
